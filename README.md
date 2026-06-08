@@ -1,17 +1,22 @@
-# hava_durumu_app
+⛅ Hava Durumu Uygulaması (Flutter)
+Bu proje, kullanıcıların istedikleri şehrin anlık hava durumu verilerini takip edebilmesi için Flutter ile geliştirilmiş bir mobil uygulamadır. Geliştirme sürecinde dışarıdan canlı veri çekme, sayfa yönlendirmeleri ve veri yönetimi gibi temel yazılım konseptleri kullanılmıştır.
 
-A new Flutter project.
+✨ Uygulamanın Temel Özellikleri:
 
-## Getting Started
+Anlık Veri Çekme (API): Kullanıcı arama çubuğuna bir şehir ismi girdiğinde, OpenWeatherMap API'si ile internete çıkılır ve o şehrin anlık sıcaklık, nem ve hava durumu açıklaması (açık, bulutlu, yağmurlu vb.) çekilerek ekranda gösterilir.
 
-This project is a starting point for a Flutter application.
+Favori Şehirler Sistemi: Kullanıcılar sürekli takip etmek istedikleri şehirleri anlık olarak kaydedebilirler.
 
-A few resources to get you started if this is your first Flutter project:
+Favoriler Sayfası: Kaydedilen şehirler uygulamanın içindeki ayrı bir sayfada liste şeklinde tutulur. Sayfalar arası geçişlerde "Navigator" yapısı kullanılarak akıcı bir deneyim sağlanmıştır.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Modern Arayüz (UI): Göz yormayan, modern ve şık bir görünüm sunmak amacıyla uygulamada Karanlık Tema (Dark Mode) tasarımı tercih edilmiştir.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🛠️ Kullanılan Teknolojiler ve Yapılar:
+
+Flutter & Dart
+
+OpenWeatherMap REST API
+
+HTTP İstekleri (GET) ve JSON Ayrıştırma (Parsing)
+
+State Management (Durum Yönetimi)
